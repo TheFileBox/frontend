@@ -1,0 +1,30 @@
+{
+  "scripts": {
+    "start": "NODE_ENV=production node src/app"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.0.0-beta.38",
+    "babel-preset-stage-2": "^6.24.1",
+    "koa": "^2.4.1",
+    "koa-router": "^7.3.0",
+    "koa-views": "^6.1.3",
+    "nunjucks": "^3.0.1",
+    "postcss": "^6.0.16",
+    "postcss-cli": "^4.1.1",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-easy-import": "^3.0.0",
+    "postcss-loader": "^2.0.10",
+    "postcss-nested": "^3.0.0",
+    "postcss-url": "^7.3.0"
+  },
+  "devDependencies": {
+    "babel-loader": "^8.0.0-beta.0"
+  },
+  "name": "filebox-frontend",
+  "version": "1.0.0",
+  "description": "frontend",
+  "main": "index.js",
+  "repository": "https://github.com/TheFileBox/frontend.git",
+  "author": "datagutt <datagutt@lekanger.no>",
+  "license": "MIT"
+}

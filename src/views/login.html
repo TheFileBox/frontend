@@ -1,0 +1,23 @@
+{% extends "_layout/unauth.html" %}
+{% block main %}
+<form class="measure center">
+	<fieldset id="sign_up" class="ba b--transparent ph0 mh0">
+		<legend class="f3 fw7 ph0 mh0">Dog in</legend>
+		<div class="mt3">
+			<label class="db fw6 lh-copy f6" for="email-address">Email</label>
+			<input class="pa2 input-reset ba b--blue bg-transparent hover-bg-blue hover-white w-100" type="email" name="email-address"  id="email-address">
+		</div>
+		<div class="mv3">
+			<label class="db fw6 lh-copy f6" for="password">Password</label>
+			<input class="b pa2 input-reset ba b--blue bg-transparent hover-bg-blue hover-white w-100" type="password" name="password"  id="password">
+		</div>
+		<label class="pa0 ma0 lh-copy f6 pointer"><input type="checkbox"> Remember me</label>
+	</fieldset>
+	<div class="">
+		<input class="f6 no-underline grow dib v-mid bg-blue white ba b--blue ph3 pv2" type="submit" value="Dog in">
+	</div>
+	<div class="lh-copy mt3">
+		<a href="/register" class="f6 link dim black db">Sign up, dog</a>
+	</div>
+</form>
+{% endblock %}
